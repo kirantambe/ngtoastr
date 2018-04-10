@@ -52,7 +52,6 @@
 
             function callToastr(typ) {
                 return function(message, title, options) {
-                    debugger;
                     return toastr[typ](message, title, angular.extend({}, toastrConfig, options))
                 }
             }
