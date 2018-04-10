@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Toastr Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../node_modules/toastr/build/toastr.css" />
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/toastr/toastr.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../toastr.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="example">
+    <div ng-controller="exampleController">
+        <button ng-click="showinfo()">info</button>
+        <button ng-click="showerror()">error</button>
+        <button ng-click="showsuccess()">success</button>
+        <button ng-click="showwarning()">warning</button>
+    </div>
+</body>
+</html>

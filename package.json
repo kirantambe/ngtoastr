@@ -1,0 +1,30 @@
+{
+  "name": "ngtoastr",
+  "version": "1.0.0",
+  "description": "Angular wrapper for toastr",
+  "main": "toastr.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "angular": "^1.6.9",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kirantambe/ngtoastr.git"
+  },
+  "keywords": [
+    "toastr"
+  ],
+  "author": "Kiran Tambe <kiran.tambe08@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirantambe/ngtoastr/issues"
+  },
+  "homepage": "https://github.com/kirantambe/ngtoastr#readme"
+}
